@@ -44,8 +44,4 @@ public class UserController {
 	public ResponseEntity<String> updateUserDetails(@RequestBody UserDTO UserDetails) throws UserServiceException {
 		return ResponseEntity.status(HttpStatus.OK).body(userImpl.updateuserDetails(UserDetails));
 	}
-	@GetMapping(value = "/getSuccess")
-	public String getMesg() {
-		return "Success";
-	}
 }
