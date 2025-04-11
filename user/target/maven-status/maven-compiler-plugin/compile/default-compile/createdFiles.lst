@@ -1,0 +1,8 @@
+com\user\service\UserService.class
+com\user\entityDTO\UserDTO.class
+com\user\UserApplication.class
+com\user\controller\UserController.class
+com\user\service\UserServiceImpl.class
+com\user\repositories\UserRepository.class
+com\user\entities\User.class
+com\user\exceptions\UserServiceException.class
